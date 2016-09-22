@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="coursera.santi.formulario.Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:id="@+id/tvNombre"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fecha"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvDate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="telefono"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvTelefono"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvEmail"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvDescripcion"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="editar datos"
+        android:layout_marginTop="70dp"
+        android:id="@+id/btnEditar"/>
+
+</LinearLayout>
